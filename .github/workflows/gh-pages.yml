@@ -8,8 +8,6 @@ on:
       - "README.md"
     branches:
       - master
-  workflow_dispatch:
-    # manual run
 
 jobs:
   deploy:
@@ -30,6 +28,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_branch: master
