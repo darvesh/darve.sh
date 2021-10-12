@@ -11,6 +11,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rust: Modules</title>
+      <link>https://darve.sh/posts/rust/modules/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/posts/rust/modules/</guid>
+      <description>Modules in Rust</description>
+    </item>
+    
+    <item>
       <title>Rust: String Literals and Slices</title>
       <link>https://darve.sh/posts/rust/string-literals-and-slices/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
