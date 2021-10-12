@@ -11,102 +11,103 @@ buildExpired: false
 enableEmoji: false
 
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 
 languages:
-    en:
-        languageName: "English"
-        weight: 1
-        menu:
-            main:
-                - name: Posts
-                  url: posts
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 6
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Posts
+          url: posts
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 6
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Categories
+          url: categories/
+          weight: 10
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Darvesh - https://github.com/darvesh/darvesh.sh"
-    author: Darvesh
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Darvesh - https://github.com/darvesh/darvesh.sh"
+  author: Darvesh
 
-    defaultTheme: auto
-    disableThemeToggle: false
-    ShowShareButtons: false
-    ShowReadingTime: true
-    disableSpecial1stPost: false
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowToc: true
-    comments: false
-    images: ["cover.png"]
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: false
+  ShowReadingTime: true
+  disableSpecial1stPost: false
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  comments: false
+  images: ["cover.png"]
 
-    profileMode:
-        enabled: false
-        title: Darvesh
-        imageUrl: "home.svg"
-        imageTitle: myimage
-        imageWidth: 300
-        imageHeight: 300
-        buttons:
-           - name: Github
-             url: https://github.com/darvesh
-           - name: LinkedIn
-             url: https://www.linkedin.com/in/drvsh/
+  profileMode:
+    enabled: false
+    title: Darvesh
+    imageUrl: "home.svg"
+    imageTitle: myimage
+    imageWidth: 300
+    imageHeight: 300
+    buttons:
+      - name: Github
+        url: https://github.com/darvesh
+      - name: LinkedIn
+        url: https://www.linkedin.com/in/drvsh/
 
-    homeInfoParams:
-        Title: "Hello there. I'm Darvesh"
-        Content: >
-            I'm a Backend Developer and primarily use TypeScript and NodeJS and currently learning Rust.
-            I use this site to write down things I learn.
+  homeInfoParams:
+    Title: "Hello there. I'm Darvesh"
+    Content: >
+      Backend Developer.<br>
+      I primarily use TypeScript and NodeJS and currently learning Rust.<br>
+      I use this site to write down things I learn.
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/darvesh"
-        - name: Stackoverflow
-          url: "https://stackoverflow.com/users/8892700/darvesh"
-        - name: KoFi
-          url: "https://ko-fi.com/darvesh"
-        - name: LinkedIn
-          url: https://www.linkedin.com/in/drvsh/
-        - name: RsS
-          url: "index.xml"
+  socialIcons:
+    - name: github
+      url: "https://github.com/darvesh"
+    - name: Stackoverflow
+      url: "https://stackoverflow.com/users/8892700/darvesh"
+    - name: KoFi
+      url: "https://ko-fi.com/darvesh"
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/drvsh/
+    - name: RsS
+      url: "index.xml"
 
-    assets:
-        favicon: "favicon/favicon.ico"
-        favicon16x16: "favicon/favicon-16x16.png"
-        favicon32x32: "favicon/favicon-32x32.png"
-        apple_touch_icon: "favicon/apple-icon.png"
-        safari_pinned_tab: "favicon/apple-icon.png"
+  assets:
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-icon.png"
+    safari_pinned_tab: "favicon/apple-icon.png"
 
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
+  category: categories
+  tag: tags
+  series: series
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        anchorLineNos: false
-        codeFences: true
-        guessSyntax: true
-        lineNos: true
-        noClasses: false
-        style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    style: monokai
