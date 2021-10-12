@@ -98,6 +98,18 @@ Now let’s talk about why string literals are immutable....</p>
 </article>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Rust: Writing tests
+</h2>
+</header>
+<section class=entry-content>
+<p>The #[cfg(test)] annotation tells Rust to run the function only when cargo test is run and not when cargo build is run
+Functions 1 2 3 4 assert!(1==2,"wasn't true");//it will print wasn't true when test fails assert_eq!(6,6);assert_ne!(6,5); Run test 1 cargo test Run tests in parallel or consecutively 1 cargo test -- --test-threads=&lt;numbers> Change output capture behavior, show logs 1 cargo test -- --nocapture Run single or multiple tests 1 cargo test &lt;function-name|pattern> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 pubfn add_one(num: i64)-> i64 {num+1}pubfn add_two(num: i64)-> i64 {num+2}#[cfg(test)]mod tests{usesuper::*;#[test]fn add_one_test(){assert_eq!...</p>
+</section>
+<footer class=entry-footer>October 11, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Darvesh</footer>
+<a class=entry-link aria-label="post link to Rust: Writing tests" href=https://darve.sh/posts/rust/tests/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>What I use
 </h2>
 </header>

@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>Rust: Writing tests</title>
+      <link>https://darve.sh/posts/rust/tests/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/posts/rust/tests/</guid>
+      <description>Writing tests in Rust</description>
+    </item>
+    
+    <item>
       <title>What I use</title>
       <link>https://darve.sh/posts/tools-of-the-trade/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
