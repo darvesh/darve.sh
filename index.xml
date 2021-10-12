@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Darvesh</title>
+    <link>https://darve.sh/</link>
+    <description>Recent content on Darvesh</description>
+    <image>
+      <url>https://darve.sh/cover.png</url>
+      <link>https://darve.sh/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust: String Literals and Slices</title>
+      <link>https://darve.sh/posts/rust/string-literals-and-slices/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/posts/rust/string-literals-and-slices/</guid>
+      <description>String literals and slices in Rust</description>
+    </item>
+    
+    <item>
+      <title>What I use</title>
+      <link>https://darve.sh/posts/tools-of-the-trade/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/posts/tools-of-the-trade/</guid>
+      <description>What I use</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
