@@ -313,9 +313,7 @@
 .post-tags a,
 .share-buttons,
 .paginav {
-    border-radius: var(--radius);
-    background: var(--code-bg);
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
 }
 
 .post-tags a {
