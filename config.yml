@@ -72,9 +72,7 @@ params:
   homeInfoParams:
     Title: "Hello there. I'm Darvesh"
     Content: >
-      Backend Developer.<br>
-      I primarily use TypeScript and NodeJS and currently learning Rust.<br>
-      I use this site to write down things I learn.
+      NodeJS | Deno | TypeScript | JavaScript | Rust | Life
 
   socialIcons:
     - name: github
