@@ -66,13 +66,15 @@ params:
     buttons:
       - name: Github
         url: https://github.com/darvesh
-      - name: LinkedIn
-        url: https://www.linkedin.com/in/drvsh/
+        new_page: true
+      - name: Posts
+        url: /posts
+        new_page: false
 
   homeInfoParams:
     Title: "Hello there. I'm Darvesh"
     Content: >
-      NodeJS | Deno | TypeScript | JavaScript | Rust | Life
+      NodeJS | Deno | TypeScript | JavaScript | Rust | Life | Travel
 
   socialIcons:
     - name: github
