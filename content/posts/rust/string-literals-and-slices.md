@@ -7,7 +7,7 @@ tags: ["Rust", "String Literal", "Slice"]
 categories: ["Programming"]
 series: ["Rust"]
 aliases: ["rust-string-literals-slices"]
-ShowToc: true
+ShowToc: false
 TocOpen: true
 ---
 

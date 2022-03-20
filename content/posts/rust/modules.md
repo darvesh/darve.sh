@@ -7,7 +7,7 @@ tags: ["Rust", "Module"]
 categories: ["Programming"]
 series: ["Rust"]
 aliases: ["rust-modules"]
-ShowToc: true
+ShowToc: false
 TocOpen: true
 ---
 

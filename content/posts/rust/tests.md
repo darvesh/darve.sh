@@ -7,7 +7,7 @@ tags: ["Rust", "Test"]
 categories: ["Programming"]
 series: ["Rust"]
 aliases: ["rust-tests"]
-ShowToc: true
+ShowToc: false
 TocOpen: true
 ---
 
