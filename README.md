@@ -1,1 +1,12 @@
-My Personal Site
+# darve.sh
+
+### Development: 
+```
+hugo -w
+```
+
+### Build: 
+```
+hugo
+```
+
