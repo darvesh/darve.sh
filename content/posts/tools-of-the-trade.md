@@ -15,9 +15,9 @@ ShowBreadCrumbs: true
 **Monitor**: Lenovo Q24i-10
 
 ### Software
-**OS**: Windows 10 with WSL2 for Development\
+**OS**: Windows 10 with Debian(WSL2) for Development\
 **Editor**: VSCode, vim\
-**Terminal**: Windows Terminal
+**Terminal**: Windows Terminal\
 **Shell**: zsh\
 **VSCode Theme**: Ayu Dark Bordered\
 **Font**: Cascadia Code\
