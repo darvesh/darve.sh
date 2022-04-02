@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Darvesh</title>
-    <link>http://127.0.0.1:8000/categories/</link>
+    <link>https://darve.sh/categories/</link>
     <description>Recent content in Categories on Darvesh</description>
     <image>
-      <url>http://127.0.0.1:8000/cover.png</url>
-      <link>http://127.0.0.1:8000/cover.png</link>
+      <url>https://darve.sh/cover.png</url>
+      <link>https://darve.sh/cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://127.0.0.1:8000/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming</title>
-      <link>http://127.0.0.1:8000/categories/programming/</link>
+      <link>https://darve.sh/categories/programming/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://127.0.0.1:8000/categories/programming/</guid>
+      <guid>https://darve.sh/categories/programming/</guid>
       <description></description>
     </item>
     
