@@ -1,4 +1,4 @@
-baseURL: "https://darve.sh"
+baseURL: "http://127.0.0.1:8000"
 title: Darvesh
 paginate: 5
 theme: PaperMod
@@ -22,16 +22,20 @@ languages:
       main:
         - name: Posts
           url: posts
-          weight: 5
+          weight: 1
+        - name: What I use
+          url: tools
+          weight: 2
         - name: Search
           url: search/
-          weight: 6
+          weight: 3
         - name: Tags
           url: tags/
-          weight: 10
+          weight: 4
         - name: Categories
           url: categories/
-          weight: 10
+          weight: 5
+       
 outputs:
   home:
     - HTML
@@ -72,7 +76,7 @@ params:
         new_page: false
 
   homeInfoParams:
-    Title: "Hello there. I'm Darvesh"
+    Title: "Hello there, I'm Darvesh"
     Content: >
       NodeJS | Deno | TypeScript | JavaScript | Rust | Life | Travel
 
