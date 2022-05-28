@@ -9,7 +9,16 @@
       <link>https://darve.sh/cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>browser</title>
+      <link>https://darve.sh/categories/browser/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/categories/browser/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Programming</title>
       <link>https://darve.sh/categories/programming/</link>

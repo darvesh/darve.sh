@@ -9,7 +9,28 @@
       <link>https://darve.sh/cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hide Native Tabs in Firefox</title>
+      <link>https://darve.sh/posts/setup/firefox-hide-native-tabs/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/posts/setup/firefox-hide-native-tabs/</guid>
+      <description>Hide native Firefox tabs using custom CSS</description>
+    </item>
+    
+    <item>
+      <title>Setup SSH</title>
+      <link>https://darve.sh/posts/setup/setup-ssh/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/posts/setup/setup-ssh/</guid>
+      <description>Generate key ssh-keygen -t ed25519 Write config Create a file named config inside ~/.ssh and add the following. Host &amp;lt;server-name&amp;gt; Hostname &amp;lt;ip&amp;gt; User &amp;lt;username&amp;gt; IdentityFile &amp;lt;path-to-private-key&amp;gt;
+Now you can log in to your server easily with ssh &amp;lt;server-name&amp;gt; instead of having to type ssh -i &amp;lt;path-to-private-key&amp;gt; &amp;lt;username&amp;gt;@&amp;lt;Hostname&amp;gt;
+Fix disconnection on idle Client will keep sending null packets every 100 seconds to keep the connection alive. Add ServerAliveInterval 100
+to either sudo vi /etc/ssh/ssh_config or vi ~/.</description>
+    </item>
+    
     <item>
       <title>Rust: Modules</title>
       <link>https://darve.sh/posts/rust/modules/</link>

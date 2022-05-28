@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>config on Darvesh</title>
+    <link>https://darve.sh/tags/config/</link>
+    <description>Recent content in config on Darvesh</description>
+    <image>
+      <url>https://darve.sh/cover.png</url>
+      <link>https://darve.sh/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/tags/config/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup SSH</title>
+      <link>https://darve.sh/posts/setup/setup-ssh/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/posts/setup/setup-ssh/</guid>
+      <description>Generate key ssh-keygen -t ed25519 Write config Create a file named config inside ~/.ssh and add the following. Host &amp;lt;server-name&amp;gt; Hostname &amp;lt;ip&amp;gt; User &amp;lt;username&amp;gt; IdentityFile &amp;lt;path-to-private-key&amp;gt;
+Now you can log in to your server easily with ssh &amp;lt;server-name&amp;gt; instead of having to type ssh -i &amp;lt;path-to-private-key&amp;gt; &amp;lt;username&amp;gt;@&amp;lt;Hostname&amp;gt;
+Fix disconnection on idle Client will keep sending null packets every 100 seconds to keep the connection alive. Add ServerAliveInterval 100
+to either sudo vi /etc/ssh/ssh_config or vi ~/.</description>
+    </item>
+    
+  </channel>
+</rss>

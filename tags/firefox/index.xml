@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Firefox on Darvesh</title>
+    <link>https://darve.sh/tags/firefox/</link>
+    <description>Recent content in Firefox on Darvesh</description>
+    <image>
+      <url>https://darve.sh/cover.png</url>
+      <link>https://darve.sh/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://darve.sh/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hide Native Tabs in Firefox</title>
+      <link>https://darve.sh/posts/setup/firefox-hide-native-tabs/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://darve.sh/posts/setup/firefox-hide-native-tabs/</guid>
+      <description>Hide native Firefox tabs using custom CSS</description>
+    </item>
+    
+  </channel>
+</rss>
