@@ -34,11 +34,32 @@ ServerAliveInterval 100
 {{< /highlight >}}
 
 to either 
-{{< highlight bash "linenos=false" >}}
+```bash
 sudo vi /etc/ssh/ssh_config
-{{< /highlight >}}
+```
 or
-{{< highlight bash "linenos=false" >}}
+```bash
 vi ~/.ssh/config
-{{< /highlight >}}
+```
 Alternatively, you can do `ssh -o ServerAliveInterval=100 me@remote`
+
+## Reverse Port Forwading
+Add these lines to `/etc/ssh/sshd_config` on your server
+```bash
+GatewayPorts clientspecified
+AllowTcpForwarding yes
+```
+Then open the terminal on your local computer, paste the following and change the values suitably
+```bash
+ssh -o ExitOnForwardFailure=yes -v -N -R "*:$SERVER_PORT:*:$CLIENT_PORT" server_name
+```
+
+Flags:\
+`R` = Specifies that connections to the given TCP port or Unix socket on the remote (server) host are to be forwarded to the local side.\
+`N`	= Do not execute a remote command, in simple words, do not log in to the server.\
+`v` = Verbose mode.  Causes ssh to print debugging messages about its progress.
+
+`server_name` is either `username@ip` or server name that you configured on your `~/.ssh/config`\
+If you want to bind to only IPv4 addresses, use `0.0.0.0` instead of `*`
+
+If there is frequent disconnection, follow [this](#fix-disconnection-on-idle) to fix it.
