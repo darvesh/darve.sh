@@ -91,6 +91,7 @@
 .post-content figure,
 .post-content ul {
     margin-bottom: var(--content-gap);
+    font-size: 15px;
 }
 
 .post-content ol,
