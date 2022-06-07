@@ -112,6 +112,6 @@ markup:
     anchorLineNos: false
     codeFences: true
     guessSyntax: true
-    lineNos: true
+    lineNos: false
     noClasses: false
     style: monokai
